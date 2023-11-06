@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Fjalla+One&family=Nunito+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+
+}
+
+.left-side{
+    width: 55%;
+    height: 100vh;
+    background-color: rgb(4, 4, 4);
+    background-image: url(./image.png);
+    background-size: cover;
+    background-position: center;
+    background-size: 250px;
+}
+
+.right-side{
+    width: 45%;
+    height: 100vh;
+    background-color: rgb(10, 10, 10);
+}
+
+.right-side form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 40px;
+    
+}
+
+form h1{
+    font-size: 75px;
+    margin-top: 50px;
+    color: white;
+}
+
+form h4{
+    font-size: 40px;
+    padding-top: 2px;
+    color: white;
+}
+
+form button{
+    width: 280px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    
+}
+
+#google{
+    font-size: 16px;
+}
+
+#apply{
+    font-size: 16px;
+}
+
+#create{
+    font-size: 16px;
+    color: white;
+    background-color: rgb(91, 91, 220);
+}
+
+form p{
+    font-size: 13px;
+    color: rgb(117, 109, 109);
+    
+}
+
+form h3{
+    font-size: 25px;
+    color: white;
+}
+
+form hr{
+    width: 300px;
+    height: 1px;
+}
+
+#singin{
+    font-size: 16px;
+    color: rgb(83, 83, 242);
+    background: transparent;
+    border: 1px solid gray;
+}
+
+
+.footer-part{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    padding-block: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.text2{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 30px;
+
+}
+
+
+#spn{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+ 
+}
+
+
+#spn hr{
+    width: 100px;
+}
+@media (max-width:768px) {
+
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .left-side{
+        display: none;
+    }
+
+    .right-side{
+        width: 100%;
+        height: auto;
+    }
+
+}
